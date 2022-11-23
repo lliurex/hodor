@@ -18,6 +18,7 @@ set -e
 # the debian-policy package
 case "$1" in
     configure)
+	    pam-auth-update --force --package hodor
     ;;
 
     abort-upgrade|abort-remove|abort-deconfigure)

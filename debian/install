@@ -1,1 +1,2 @@
 sbin/* /usr/sbin/
+pam-module/* /usr/share/pam-configs
