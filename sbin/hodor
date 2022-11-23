@@ -1,0 +1,12 @@
+#!/bin/sh
+
+set -x
+
+rc=0;
+id -nG $USER | grep -qw "Domain Users" && rc=1
+
+if [ "$rc" = "1" ]; then
+    chmod o-rwx $HOME
+fi
+
+exit 0
