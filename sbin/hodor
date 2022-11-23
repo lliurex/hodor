@@ -5,7 +5,11 @@ set -x
 rc=0;
 id -nG $USER | grep -qw "Domain Users" && rc=1
 
+
+
 if [ "$rc" = "1" ]; then
+    [ -e $HOME ] || mkdir $HOME
+    chown $USER:nogroup $HOME
     chmod o-rwx $HOME
 fi
 
