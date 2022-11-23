@@ -1,0 +1,6 @@
+Name: Fix permissions /home
+Default: yes
+Priority: 0
+Auth-Type: Additional
+Session:
+	optional	pam_exec.so /usr/sbin/hodor
