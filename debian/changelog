@@ -1,3 +1,9 @@
+hodor (0.3) focal; urgency=medium
+
+  * Change execution path. Now depend of llx-pam-configs
+
+ -- Raul Rodrigo Segura <raurodse@gmail.com>  Mon, 28 Nov 2022 17:20:56 +0100
+
 hodor (0.2) focal; urgency=medium
 
   * Fix pam secction
