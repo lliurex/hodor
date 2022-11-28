@@ -1,2 +1,1 @@
-sbin/* /usr/sbin/
-pam-module/* /usr/share/pam-configs
+sbin/* /usr/share/llx-pam-configs/display-manager/session.d/
