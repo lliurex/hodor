@@ -8,7 +8,7 @@ Homepage: https://www.lliurex.net
 
 Package: hodor 
 Architecture: all
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends}, llx-pam-configs
 Description: Change home folder permissions for CDC users 
  Remove all other permissions from home folder for CDC users. This function is
  similar to home-linker, but more simple
