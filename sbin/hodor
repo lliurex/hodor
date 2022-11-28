@@ -3,14 +3,15 @@
 set -x
 
 rc=0;
+
 id -nG $USER | grep -qw "Domain Users" && rc=1
-
-
-
 if [ "$rc" = "1" ]; then
-    [ -e $HOME ] || mkdir $HOME
-    chown $USER:nogroup $HOME
-    chmod o-rwx $HOME
+    REAL_HOME=$(bash -c "echo ~$USER")
+    if [ ! -e $HOME ]; then
+            mkdir -p $HOME
+    fi
+    chown $USER:nogroup $HOME 
+    chmod o-rwx $HOME 
 fi
 
 exit 0
