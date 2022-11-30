@@ -22,8 +22,8 @@ case "$1" in
 	    for x in $(find /home/ -maxdepth 1 -type d); do
 		    g="$(stat -c %G $x)"
 		    if [ "$g" = "Domain Users" ];then
-			    chown :nogroup $g
-			    chmod o-rwx $g
+			    chown :nogroup $x
+			    chmod o-rwx $x
 		    fi
 	    done
     ;;
