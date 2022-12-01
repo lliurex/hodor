@@ -19,13 +19,18 @@ set -e
 case "$1" in
     configure)
 	    pam-auth-update --force --package hodor
-	    for x in $(find /home/ -maxdepth 1 -type d); do
+	    SAVEIFS=$IFS
+	    IFS=$(echo -en "\n\b")
+	    for x in $(find /home/ -mindepth 1 -maxdepth 1 -type d); do
+		    [ -d "$x" ] || continue
 		    g="$(stat -c %G $x)"
 		    if [ "$g" = "Domain Users" ];then
 			    chown :nogroup $x
 			    chmod o-rwx $x
 		    fi
 	    done
+	    IFS=$SAVEIFS
+
     ;;
 
     abort-upgrade|abort-remove|abort-deconfigure)
