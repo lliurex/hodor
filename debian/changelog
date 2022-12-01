@@ -1,3 +1,9 @@
+hodor (0.4.2) focal; urgency=medium
+
+  * Enhance postinst. Now support home folder with whitespace
+
+ -- Raul Rodrigo Segura <raurodse@gmail.com>  Thu, 01 Dec 2022 20:18:47 +0100
+
 hodor (0.4.1) focal; urgency=medium
 
   * Fix postinst
