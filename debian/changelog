@@ -1,3 +1,9 @@
+hodor (0.4.3) focal; urgency=medium
+
+  * Move code from postint to bash script
+
+ -- Raul Rodrigo Segura <raurodse@gmail.com>  Fri, 02 Dec 2022 10:51:24 +0100
+
 hodor (0.4.2) focal; urgency=medium
 
   * Enhance postinst. Now support home folder with whitespace
