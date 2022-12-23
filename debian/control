@@ -1,12 +1,12 @@
-Source: hodor 
+Source: hodor
 Section: utils
 Priority: optional
 Maintainer: Lliurex Team <lliurex@gva.es>
-Build-Depends: debhelper-compat (= 12)
-Standards-Version: 4.4.1
+Build-Depends: debhelper-compat (= 10)
+Standards-Version: 4.1.2
 Homepage: https://www.lliurex.net
 
-Package: hodor 
+Package: hodor
 Architecture: all
 Depends: ${shlibs:Depends}, ${misc:Depends}, llx-pam-configs
 Description: Change home folder permissions for CDC users 
