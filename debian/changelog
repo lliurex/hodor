@@ -1,0 +1,35 @@
+hodor (0.4.2) focal; urgency=medium
+
+  * Enhance postinst. Now support home folder with whitespace
+
+ -- Raul Rodrigo Segura <raurodse@gmail.com>  Thu, 01 Dec 2022 20:18:47 +0100
+
+hodor (0.4.1) focal; urgency=medium
+
+  * Fix postinst
+
+ -- Raul Rodrigo Segura <raurodse@gmail.com>  Wed, 30 Nov 2022 16:14:14 +0100
+
+hodor (0.4) focal; urgency=medium
+
+  * Clean homes when install package
+
+ -- Raul Rodrigo Segura <raurodse@gmail.com>  Wed, 30 Nov 2022 14:26:14 +0100
+
+hodor (0.3) focal; urgency=medium
+
+  * Change execution path. Now depend of llx-pam-configs
+
+ -- Raul Rodrigo Segura <raurodse@gmail.com>  Mon, 28 Nov 2022 17:20:56 +0100
+
+hodor (0.2) focal; urgency=medium
+
+  * Fix pam secction
+
+ -- Raul Rodrigo Segura <raurodse@gmail.com>  Wed, 23 Nov 2022 11:33:38 +0100
+
+hodor (0.1) focal; urgency=medium
+
+  * Initial Release.
+
+ -- Raul Rodrigo Segura <raurodse@gmail.com>  Tue, 22 Nov 2022 11:58:37 +0100
