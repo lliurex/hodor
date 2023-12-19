@@ -4,4 +4,4 @@ Priority: 257
 Session-Type: Additional
 #Session-Interactive-Only: yes
 Session:
-       optional                        pam_script.so dir=/usr/share/llx-pam-configs/display-manager/pam-script
+       optional                        pam_script.so dir=/usr/share/hodor
