@@ -1,3 +1,9 @@
+hodor (0.5) focal; urgency=medium
+
+  * Replace bash script by python script
+
+ -- Raul Rodrigo Segura <raurodse@gmail.com>  Tue, 19 Dec 2023 13:38:18 +0100
+
 hodor (0.4.3) focal; urgency=medium
 
   * Move code from postint to bash script
