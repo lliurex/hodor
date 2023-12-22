@@ -20,6 +20,9 @@ case "$1" in
     configure)
 	pam-auth-update --force --package hodor
 	hodor_fixer
+	if dpkg --compare-versions "$2" lt 0.5; then
+		find /home -name "*edu.gva.es*" -exec rm {} \;
+	fi
     ;;
 
     abort-upgrade|abort-remove|abort-deconfigure)
