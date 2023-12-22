@@ -21,7 +21,7 @@ case "$1" in
 	pam-auth-update --force --package hodor
 	hodor_fixer
 	if dpkg --compare-versions "$2" lt 0.5; then
-		find /home -name "*edu.gva.es*" -exec rm {} \;
+		find /home -maxdepth 1 -iname "*@*edu.gva.es*" -exec rm {} \;
 	fi
     ;;
 
