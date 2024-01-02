@@ -1,3 +1,9 @@
+hodor (0.5.2) focal; urgency=medium
+
+  * Dummy upgrade
+
+ -- Raul Rodrigo Segura <raurodse@gmail.com>  Tue, 02 Jan 2024 09:34:04 +0100
+
 hodor (0.5.1) focal; urgency=medium
 
   * Remove wrong home folder created by hodor
