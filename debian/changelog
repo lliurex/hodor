@@ -1,3 +1,9 @@
+hodor (0.5.3) focal; urgency=medium
+
+  * Fix exec command
+
+ -- Raul Rodrigo Segura <raurodse@gmail.com>  Tue, 02 Jan 2024 12:38:49 +0100
+
 hodor (0.5.2) focal; urgency=medium
 
   * Dummy upgrade
