@@ -15,7 +15,7 @@ def run():
         p = s.Popen( "echo ~{}".format( str( user ) ), shell=True, stdout=s.PIPE )
         real_home, errors = p.communicate()
         real_home = real_home.decode( "utf-8" ).strip()
-        os.makedirs( real_home, exist_ok=True )
+        s.Popen( "mkhomedir_helper {user}".format(user=user), shell=True )
         shutil.chown( real_home, user, "nogroup" )
         current_mode = stat.S_IMODE( os.lstat( real_home ).st_mode )
         os.chmod( real_home, current_mode & ~stat.S_IRWXO )
