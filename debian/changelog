@@ -1,3 +1,9 @@
+hodor (0.15.1) jammy; urgency=medium
+
+  * Fix version to execute postinst
+
+ -- Raul Rodrigo Segura <raurodse@gmail.com>  Wed, 10 Jan 2024 13:36:18 +0100
+
 hodor (0.15) jammy; urgency=medium
 
   * Sync version with 0.6 focal version
