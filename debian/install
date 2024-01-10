@@ -1,1 +1,3 @@
-sbin/* /usr/share/llx-pam-configs/display-manager/session.d/
+pam-configs/* /usr/share/pam-configs/
+sbin/*	/usr/sbin/
+pam-script/*  /usr/share/hodor/
