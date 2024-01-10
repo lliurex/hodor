@@ -1,0 +1,7 @@
+Name: Hodor
+Default: yes
+Priority: 257
+Session-Type: Additional
+#Session-Interactive-Only: yes
+Session:
+       optional                        pam_script.so dir=/usr/share/hodor
