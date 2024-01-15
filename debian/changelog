@@ -1,3 +1,9 @@
+hodor (0.15.2) jammy; urgency=medium
+
+  * Check if PAM_USER exists
+
+ -- Raul Rodrigo Segura <raurodse@gmail.com>  Mon, 15 Jan 2024 12:51:18 +0100
+
 hodor (0.15.1) jammy; urgency=medium
 
   * Fix version to execute postinst
