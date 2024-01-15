@@ -7,7 +7,10 @@ import stat
 def run():
 
     os.setuid(0)
-    user = os.environ["PAM_USER"]
+    try:
+        user = os.environ["PAM_USER"]
+    except:
+        return
     p = s.Popen( "id -nG {}".format( str( user ) ), shell=True, stdout=s.PIPE )
     list_groups,errors = p.communicate()
     list_groups = list_groups.decode( "utf-8" )
