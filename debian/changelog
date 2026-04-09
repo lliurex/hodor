@@ -1,4 +1,4 @@
-hodor (0.15.2) jammy; urgency=medium
+hodor (0.15.2) noble; urgency=medium
 
   * Check if PAM_USER exists
 
