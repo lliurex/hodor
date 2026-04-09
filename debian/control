@@ -1,0 +1,19 @@
+Source: hodor 
+Section: utils
+Priority: optional
+Maintainer: Lliurex Team <lliurex@gva.es>
+Rules-Requires-Root: no
+Build-Depends:
+ debhelper-compat (= 13),
+Standards-Version: 4.6.2
+Homepage: https://www.lliurex.net
+Vcs-Git: https://gitlab.com/lliurex/hodor.git
+
+Package: hodor 
+Architecture: all
+Multi-Arch: foreign
+Depends: ${shlibs:Depends}, ${misc:Depends}, libpam-modules, libpam-script
+Description: Change home folder permissions for CDC users 
+ Remove all other permissions from home folder for CDC users. This function is
+ similar to home-linker, but more simple
+
