@@ -1,3 +1,9 @@
+hodor (0.15.5) noble; urgency=medium
+
+  * Rename diverted file 
+
+ -- Raul Rodrigo Segura <raurodse@gmail.com>  Mon, 25 May 2026 16:17:08 +0200
+
 hodor (0.15.4) noble; urgency=medium
 
   * Add diversion to pam_scripts. This pam module break password change and
