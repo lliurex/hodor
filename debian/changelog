@@ -1,3 +1,10 @@
+hodor (0.15.4) noble; urgency=medium
+
+  * Add diversion to pam_scripts. This pam module break password change and
+    user creation if not diverted
+
+ -- Raul Rodrigo Segura <raurodse@gmail.com>  Mon, 25 May 2026 16:05:53 +0200
+
 hodor (0.15.3) noble; urgency=medium
 
   * Modify also admins, teachers and students home folder

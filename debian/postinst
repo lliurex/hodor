@@ -18,6 +18,7 @@ set -e
 # the debian-policy package
 case "$1" in
     configure)
+	dpkg-divert --package hodor --add --rename --divert /usr/share/hodor/pam_script /usr/share/pam-configs/pam_script
 	pam-auth-update --force --package hodor
 	hodor_fixer
     ;;
