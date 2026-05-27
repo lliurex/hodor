@@ -1,3 +1,9 @@
+hodor (0.15.6) noble; urgency=medium
+
+  * Divert pam_script correctly
+
+ -- Raul Rodrigo Segura <raurodse@gmail.com>  Wed, 27 May 2026 11:48:02 +0200
+
 hodor (0.15.5) noble; urgency=medium
 
   * Rename diverted file 
